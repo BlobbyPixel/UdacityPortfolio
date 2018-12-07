@@ -1,0 +1,23 @@
+.featured-section-title {
+    font-weight: lighter;
+    color: #7d97ad;
+    margin: 25px 0 15px 0;
+}
+
+.featured-work-item {
+    text-align: center;
+}
+
+.featured-work-item .featured-work-item-title {
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.featured-work-item a {
+    color: #000;
+    font-weight: lighter;
+}
+
+.featured-work-item img {
+    width: 100%;
+}
