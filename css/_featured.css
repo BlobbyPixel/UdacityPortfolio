@@ -6,6 +6,10 @@
 
 .featured-work-item {
     text-align: center;
+    transition: opacity 500ms ease-out;
+}
+.featured-work-item:hover {
+    opacity: 1 !important;
 }
 
 .featured-work-item .featured-work-item-title {
@@ -16,8 +20,18 @@
 .featured-work-item a {
     color: #000;
     font-weight: lighter;
+    white-space: nowrap;
+}
+
+.featured-work-item p {
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .featured-work-item img {
-    width: 100%;
+    min-width: 100%;
+}
+
+.featured-section:hover .featured-work-item {
+    opacity: .5;
 }
